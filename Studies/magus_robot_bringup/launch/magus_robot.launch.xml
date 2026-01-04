@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="magus_py_pkg" exec="magus_robot_pub1" namespace="ns_magus1" />
+    <node pkg="magus_py_pkg" exec="magus_robot_pub2" namespace="ns_magus2" />
+    <node pkg="magus_py_pkg" exec="magus_robot_pub3" namespace="ns_magus3" />
+    <node pkg="magus_py_pkg" exec="magus_robot_sub1" namespace="ns_magus1" />
+    <node pkg="magus_py_pkg" exec="magus_robot_sub2" namespace="ns_magus2" />
+    <node pkg="magus_py_pkg" exec="magus_robot_sub3" namespace="ns_magus3" />
+</launch>
