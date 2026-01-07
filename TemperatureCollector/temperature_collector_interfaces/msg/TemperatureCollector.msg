@@ -1,0 +1,3 @@
+float64 temperature_saopaulo
+float64 temperature_santoandre
+float64 temperature_campinas
