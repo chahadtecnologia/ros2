@@ -1,11 +1,23 @@
 /temp_collector_node:
   ros__parameters:
-    city1: "São Paulo"
-    city2: "Santo André"
-    city3: "Campinas"
+    city1: "São Roque"
+    city2: "Itupeva"
+    city3: "Holambra"
 
 /temp_server_node:
   ros__parameters:
-    city1: "São Paulo"
-    city2: "Santo André"
-    city3: "Campinas"
+    city1: "São Roque"
+    city2: "Itupeva"
+    city3: "Holambra"
+
+/client_city1_node:
+  ros__parameters:
+    city1: "São Roque"
+
+/client_city2_node:
+  ros__parameters:
+    city2: "Itupeva"
+
+/client_city3_node:
+  ros__parameters:
+    city3: "Holambra"
