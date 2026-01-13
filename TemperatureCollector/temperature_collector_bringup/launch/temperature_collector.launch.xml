@@ -1,8 +1,8 @@
 <launch>
-    <node pkg="temperature_collector" exec="temp_collector_node">
+    <node pkg="temperature_collector" exec="temp_collector_node" namespace="server_core">
         <param from="$(find-pkg-share temperature_collector_bringup)/config/temperature_config.yaml" />
     </node>
-    <node pkg="temperature_collector" exec="temp_server_node">
+    <node pkg="temperature_collector" exec="temp_server_node" namespace="server_core">
         <param from="$(find-pkg-share temperature_collector_bringup)/config/temperature_config.yaml" />
     </node>
     <node pkg="temperature_collector" exec="client_city1_node">

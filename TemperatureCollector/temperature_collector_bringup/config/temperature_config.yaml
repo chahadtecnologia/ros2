@@ -1,10 +1,10 @@
-/temp_collector_node:
+/server_core/temp_collector_node:
   ros__parameters:
     city1: "São Roque"
     city2: "Itupeva"
     city3: "Holambra"
 
-/temp_server_node:
+/server_core/temp_server_node:
   ros__parameters:
     city1: "São Roque"
     city2: "Itupeva"
