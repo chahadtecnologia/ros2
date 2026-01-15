@@ -6,7 +6,7 @@
 
 ### In general terms, ROS 2 acts as a specialized middleware for robotics. Its primary role is to provide a standardized communication infrastructure that allows different parts of a robotic system (sensors, actuators, and algorithms) to "talk" to each other efficiently and in a distributed manner.
 
-## Through a node-based architecture and the DDS (Data Distribution Service) communication protocol, ROS 2 facilitates:
+### Through a node-based architecture and the DDS (Data Distribution Service) communication protocol, ROS 2 facilitates:
 
 - **Modularity**: Breaking down complex tasks into small, independent processes.
 - **Scalability**: The ability to run systems across multiple processors or machines.
