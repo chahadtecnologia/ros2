@@ -16,5 +16,5 @@
 ### This space will serve as a foundation for implementing packages, configuration files, and simulations, exploring the potential of ROS 2 in building intelligent and autonomous robots.
 
 <div align="center">
-  <img src="Images/NierAutomata.gif" alt="NierAutomata" width="500">
+  <img src="Images/NierAutomata.gif" alt="NierAutomata" width="800">
 </div>
